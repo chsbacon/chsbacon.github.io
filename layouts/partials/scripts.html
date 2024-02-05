@@ -50,7 +50,7 @@
   {{- $katexJS := resources.Get "lib/katex/katex.min.js" | fingerprint -}}
   {{- $mhchemJS := resources.Get "lib/katex/mhchem.min.js" | fingerprint -}}
   {{- $katexAutoRenderJS := resources.Get "lib/katex/auto-render.min.js" | fingerprint -}}
-  <link type="text/css" rel="stylesheet" href="{{ $katexCSS.RelPermalink }}"/>
+  <link type="text/css" rel="stylesheet" href="{{ $katexCSS.RelPermalink }}" />
   <script defer src="{{ $katexJS.RelPermalink }}"></script>
   <script defer src="{{ $katexAutoRenderJS.RelPermalink }}"></script>
   <script defer src="{{ $mhchemJS.RelPermalink }}"></script>
