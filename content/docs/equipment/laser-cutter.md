@@ -8,11 +8,11 @@ The laser cutter is a machine that quickly cuts large flat materials, like acryl
 {{% steps %}}
 
 ### Step 1
-Get what you want to cut as a DXF file.
+Get what you want to cut as a DXF file (See [Onshape](/docs/software/onshape) for more information).
 ### Step 2
 Put the DXF in the Print Me folder.
 ### Step 3
-Turn on the BOFA.
+Log into your account 
 
 {{% /steps %}}
 ## Tips and Tricks

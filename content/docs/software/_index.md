@@ -1,5 +1,6 @@
 ---
 title: Software
+weight: 3
 ---
 Sigma Lab runs on various pieces of software. Here are some of the more important ones.
 {{< cards >}}
