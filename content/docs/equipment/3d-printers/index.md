@@ -31,7 +31,7 @@ They'll make sure you haven't missed something that would cause the part to fail
 ### Take the SD card out of an idle printer and plug it in to your computer.
 You will probably need to use an SD to USB adapter.
 ### Press the "export to USB" icon in the bottom right of the screen.
-Then save your file as a **descriptive filename**, preferably including your name and a version number. "Part Studio 1 - Part 1" *does not count!*
+Then save your file as a **descriptive filename**, preferably including your name and a version number. `Part Studio 1 - Part 1` *does not count!*
 ### Press the eject button in PrusaSlicer.
 Then remove the SD card from your computer.
 ### Plug the SD card back into the printer.
