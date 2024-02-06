@@ -8,7 +8,7 @@ Prusa|Stratasys
 ---|---
 Filament is cheap|Filament is a 10x markup
 More control over the printer|More hands-off experience
-Better for small, complex models with lots of overhang needing support|Better for large prints that don't need a ton of support
+Better for large prints that don't need a ton of support|Better for small, complex models with lots of overhang needing support
 
 TODO: add images to this tutorial
 ## Prusa
