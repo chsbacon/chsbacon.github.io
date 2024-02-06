@@ -11,7 +11,7 @@
 {{- if hugo.IsProduction -}}
   {{- $scripts = $scripts | minify | fingerprint -}}
 {{- end -}}
-<script defer src="{{ $scripts.RelPermalink }}" integrity="{{ $scripts.Data.Integrity }}"></script>
+<script defer src="{{ $scripts.RelPermalink }}" integrity=""></script>
 
 
 {{/* Search */}}
@@ -24,8 +24,8 @@
       {{- $jsSearch = $jsSearch | minify | fingerprint -}}
     {{- end -}}
     {{- $flexSearchJS := resources.Get "lib/flexsearch/flexsearch.bundle.min.js" | fingerprint -}}
-    <script defer src="{{ $flexSearchJS.RelPermalink }}" integrity="{{ $flexSearchJS.Data.Integrity }}"></script>
-    <script defer src="{{ $jsSearch.RelPermalink }}" integrity="{{ $jsSearch.Data.Integrity }}"></script>
+    <script defer src="{{ $flexSearchJS.RelPermalink }}" integrity=""></script>
+    <script defer src="{{ $jsSearch.RelPermalink }}" integrity=""></script>
   {{- else -}}
     {{- warnf `search type "%s" is not supported` $searchType -}}
   {{- end -}}
@@ -35,7 +35,7 @@
 {{/* FIXME: need to investigate .Page.Store hasMermaid is set for homepage */}}
 {{- if and (.Page.Store.Get "hasMermaid") (not .Page.IsHome) -}}
   {{- $mermaidJS := resources.Get "lib/mermaid/mermaid.min.js" | fingerprint -}}
-  <script defer src="{{ $mermaidJS.RelPermalink }}" integrity="{{ $mermaidJS.Data.Integrity }}"></script>
+  <script defer src="{{ $mermaidJS.RelPermalink }}" integrity=""></script>
   <script>
     document.addEventListener("DOMContentLoaded", function () {
       const theme = document.documentElement.classList.contains("dark") ? "dark" : "default";
@@ -50,10 +50,10 @@
   {{- $katexJS := resources.Get "lib/katex/katex.min.js" | fingerprint -}}
   {{- $mhchemJS := resources.Get "lib/katex/mhchem.min.js" | fingerprint -}}
   {{- $katexAutoRenderJS := resources.Get "lib/katex/auto-render.min.js" | fingerprint -}}
-  <link type="text/css" rel="stylesheet" href="{{ $katexCSS.RelPermalink }}" integrity="{{ $katexCSS.Data.Integrity }}" />
-  <script defer src="{{ $katexJS.RelPermalink }}" integrity="{{ $katexJS.Data.Integrity }}"></script>
-  <script defer src="{{ $katexAutoRenderJS.RelPermalink }}" integrity="{{ $katexAutoRenderJS.Data.Integrity }}"></script>
-  <script defer src="{{ $mhchemJS.RelPermalink }}" integrity="{{ $mhchemJS.Data.Integrity }}"></script>
+  <link type="text/css" rel="stylesheet" href="{{ $katexCSS.RelPermalink }}" integrity="" />
+  <script defer src="{{ $katexJS.RelPermalink }}" integrity=""></script>
+  <script defer src="{{ $katexAutoRenderJS.RelPermalink }}" integrity=""></script>
+  <script defer src="{{ $mhchemJS.RelPermalink }}" integrity=""></script>
   {{ $katexFonts := resources.Match "lib/katex/fonts/*" }}
   {{- range $katexFonts -}}
     {{ .Publish }}

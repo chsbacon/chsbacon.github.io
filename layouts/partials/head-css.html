@@ -7,8 +7,8 @@
 
   {{- if hugo.IsProduction }}
     {{- $styles = $styles | minify | fingerprint }}
-    <link rel="preload" href="{{ $styles.RelPermalink }}" as="style" integrity="{{ $styles.Data.Integrity }}" />
-    <link href="{{ $styles.RelPermalink }}" rel="stylesheet" integrity="{{ $styles.Data.Integrity }}" />
+    <link rel="preload" href="{{ $styles.RelPermalink }}" as="style" integrity="" />
+    <link href="{{ $styles.RelPermalink }}" rel="stylesheet" integrity="" />
   {{- else }}
     <link href="{{ $styles.RelPermalink }}" rel="stylesheet" />
   {{- end }}
@@ -19,7 +19,7 @@
 {{- $custom := resources.Get "css/custom.css" }}
 {{- if hugo.IsProduction -}}
   {{- $custom = $custom | minify | fingerprint }}
-  <link href="{{ $custom.RelPermalink }}" rel="stylesheet" integrity="{{ $custom.Data.Integrity }}" />
+  <link href="{{ $custom.RelPermalink }}" rel="stylesheet" integrity="" />
 {{- else }}
   <link href="{{ $custom.RelPermalink }}" rel="stylesheet" />
 {{- end }}
