@@ -20,7 +20,7 @@ Here's how to print a part on one:
 ### Export your model from Onshape.
 In Onshape, right-click on the part you want to print and select Export. You should export it as a 3MF with Fine detail. 
 ### Open PrusaSlicer.
-Open PrusaSlicer. If it asks you to pick which printer you have, select the Prusa Mk3S/Mk3S+ 0.4mm nozzle, then click Finish.
+Open PrusaSlicer. If it opens a configuration wizard, select Prusa FFF on the left side, then scroll down to MK3 Family and choose the Prusa Mk3S/Mk3S+ 0.4 mm nozzle, then click Finish.
 ### Import your model.
 Select the square with the plus, then select your downloaded .3mf file in the dialog that comes up.
 ### Orient your model correctly.
@@ -28,7 +28,7 @@ Using the move and rotate tools on the left side of the screen, orient the part 
 ### Select the correct material.
 In the upper-right corner, select the material you're printing. **_MAKE SURE THIS IS CORRECT, OR YOUR PRINT WILL FAIL AND MIGHT TAKE THE PRINTER WITH IT!_** If you don't know if you're printing in PLA or PETG or something else, ask someone.
 ### Select the profile.
-In the same area, select the profile you want to use. It'll look something like `0.20mm QUALITY`. This is how you trade off between detail and printing speed. You'll get a feel for what you need as you get more experience, but a good rule of thumb is to use `0.30mm DRAFT` for parts you need quickly and `0.20mm QUALITY` for everything else.
+In the same area, select the profile you want to use. It'll look something like `0.20mm QUALITY`. This is how you trade off between detail and printing speed. You'll get a feel for what you need as you get more experience, but a good rule of thumb is to use `0.30mm DRAFT` for parts you need quickly and `0.20mm QUALITY` for everything else. Also, make sure your printer is set to `Original Prusa i3 MK3S and MK3S+`.
 ### Slice the part.
 Press the "Slice now" button in the bottom right of the screen.
 ### Fix the part if needed.
