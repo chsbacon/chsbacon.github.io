@@ -3,6 +3,13 @@ title: 3D Printers
 ---
 3D printers build up objects out of melted plastic. We design the parts in [Onshape](/docs/software/onshape). From there, we use either one of our Stratasys printers or one of our Prusas to fabricate it.
 
+## How to choose which printer to use
+Prusa|Stratasys
+---|---
+Filament is cheap|Filament is a 10x markup
+More control over the printer|More hands-off experience
+Better for small, complex models with lots of overhang needing support|Better for large prints that don't need a ton of support
+
 TODO: add images to this tutorial
 ## Prusa
 The 3 Prusa Mk3S+ printers are the workhorses of the Sigma Lab. Most parts should be printed on them. The process is fairly involved, so if you have any questions, don't hesitate to ask a teacher, TA, or classmate who knows what they're doing. They'll be happy to help. 
@@ -48,10 +55,3 @@ This is a crucial step to make sure that if the part fails, it doesn't cause big
 
 ## Stratasys
 This proccess is much more hands-off. Use GrabCAD print to slice, then send to the printer wirelessly.
-
-## How to choose which printer to use
-Prusa|Stratasys
----|---
-Filament is cheap|Filament is a 10x markup
-More control over the printer|More hands-off experience
-Better for small, complex models with lots of overhang needing support|Better for large prints that don't need a ton of support
