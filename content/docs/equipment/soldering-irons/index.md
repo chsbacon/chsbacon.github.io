@@ -22,7 +22,7 @@ collect all of you materials and make sure that you have a clean workspace. Its 
 Secure your parts with a soldering helping to keep them in place while you solder this can offten be the most important part of soldering as it can be difficult to solder if the parts are not held in then right place.
 
 ### Step 3: soldering
-Heat up the soldering iron and apply it to the parts that you want to solder together. Once the parts are hot enough apply the solder to the parts and let it cool.
+Heat up the soldering iron and apply it to the parts that you want to solder together. Once the parts are hot enough apply the solder to the parts and let it cool. 
 
 <!-- TODO: have jakob write more documentation on soldering and make the videos on soldering -->
 
